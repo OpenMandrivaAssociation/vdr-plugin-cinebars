@@ -2,7 +2,7 @@
 %define plugin	cinebars
 %define name	vdr-plugin-%plugin
 %define version	0.0.3a
-%define rel	7
+%define rel	8
 
 Summary:	VDR plugin: Overlays "cinebars"
 Name:		%name
