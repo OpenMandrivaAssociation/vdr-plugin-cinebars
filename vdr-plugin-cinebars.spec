@@ -12,7 +12,6 @@ Group:		Video
 License:	GPL+
 URL:		http://www.egal-vdr.de/plugins/
 Source:		http://www.egal-vdr.de/plugins/vdr-%plugin-%version.tgz
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
