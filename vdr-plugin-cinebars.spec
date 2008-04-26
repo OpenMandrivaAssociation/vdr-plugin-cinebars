@@ -1,8 +1,8 @@
 
 %define plugin	cinebars
 %define name	vdr-plugin-%plugin
-%define version	0.0.4
-%define rel	3
+%define version	0.0.5
+%define rel	1
 
 Summary:	VDR plugin: Overlays "cinebars"
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL+
 URL:		http://www.egal-vdr.de/plugins/
 Source:		http://www.egal-vdr.de/plugins/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -21,6 +21,7 @@ Overlays "cinema-bars" over the live picture.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
