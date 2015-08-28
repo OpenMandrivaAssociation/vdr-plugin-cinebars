@@ -6,7 +6,7 @@
 Summary:	VDR plugin: Overlays "cinebars"
 Name:		%name
 Version:	%version
-Release:	6
+Release:	7
 Group:		Video
 License:	GPL+
 URL:		http://www.egal-vdr.de/plugins/
