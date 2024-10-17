@@ -9,7 +9,7 @@ Version:	%version
 Release:	7
 Group:		Video
 License:	GPL+
-URL:		http://www.egal-vdr.de/plugins/
+URL:		https://www.egal-vdr.de/plugins/
 Source:		http://www.egal-vdr.de/plugins/vdr-%plugin-%version.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
